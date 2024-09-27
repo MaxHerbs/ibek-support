@@ -4,7 +4,7 @@ module: positioner
 
 entity_models:
 
-  - name: motorpositioner_external_motor
+  - name: motorpositioner
     description: |-
       Template for wrapping a motor as a positioner. This allows it to be controlled by a multipositioner, mapping a list of names onto a list of motor positions
     parameters:
@@ -257,10 +257,10 @@ entity_models:
         description: |-
           This associates an edm screen with the template
         default: P6 Val
-      NPOS:
-        type: str
-        description: |-
-          Only specify if not using the builder object.
+      # NPOS:
+      #   type: str
+      #   description: |-
+      #     Only specify if not using the builder object.
       # P1:
       #   type: str
       #   description: |-
