@@ -261,38 +261,49 @@ entity_models:
         type: str
         description: |-
           Only specify if not using the builder object.
-      P1:
+      # P1:
+      #   type: str
+      #   description: |-
+      #     Only specify if not using the builder object.
+      # P2:
+      #   type: str
+      #   description: |-
+      #     Only specify if not using the builder object.
+      # P3:
+      #   type: str
+      #   description: |-
+      #     Only specify if not using the builder object.
+      # P4:
+      #   type: str
+      #   description: |-
+      #     Only specify if not using the builder object.
+      # P5:
+      #   type: str
+      #   description: |-
+      #     Only specify if not using the builder object.
+      # P6:
+      #   type: str
+      #   description: |-
+      #     Only specify if not using the builder object.
+      # P7:
+      #   type: str
+      #   description: |-
+      #     Only specify if not using the builder object.
+      # P8:
+      #   type: str
+      #   description: |-
+      #     Only specify if not using the builder object.
+
+      gda_desc:
         type: str
         description: |-
-          Only specify if not using the builder object.
-      P2:
+          Description as in GDA.
+      gda_name:
         type: str
         description: |-
-          Only specify if not using the builder object.
-      P3:
-        type: str
-        description: |-
-          Only specify if not using the builder object.
-      P4:
-        type: str
-        description: |-
-          Only specify if not using the builder object.
-      P5:
-        type: str
-        description: |-
-          Only specify if not using the builder object.
-      P6:
-        type: str
-        description: |-
-          Only specify if not using the builder object.
-      P7:
-        type: str
-        description: |-
-          Only specify if not using the builder object.
-      P8:
-        type: str
-        description: |-
-          Only specify if not using the builder object.
+          Name as in GDA.
+
+
 
     databases:
 
