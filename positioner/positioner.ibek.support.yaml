@@ -29,94 +29,90 @@ entity_models:
         description: |-
           Engineering units
       PREC:
-        type: str
+        type: int
         description: |-
           Precision to display to
       motor:
         type: str
         description: |-
           Motor record pv
-      pos:
-        type: str
-        description: |-
-          Positioner letter (A..H)
       VALA:
-        type: int
+        type: float
         description: |-
           Positioner value for position 1
         default: 0
       VALB:
-        type: int
+        type: float
         description: |-
           Positioner value for position 2
         default: 0
       VALC:
-        type: int
+        type: float
         description: |-
           Positioner value for position 3
         default: 0
       VALD:
-        type: int
+        type: float
         description: |-
           Positioner value for position 4
         default: 0
       VALE:
-        type: int
+        type: float
         description: |-
           Positioner value for position 5
         default: 0
       VALF:
-        type: int
+        type: float
         description: |-
           Positioner value for position 6
         default: 0
       VALG:
-        type: int
+        type: float
         description: |-
           Positioner value for position 7
         default: 0
       VALH:
-        type: int
+        type: float
         description: |-
           Positioner value for position 8
         default: 0
       VALI:
-        type: int
+        type: float
         description: |-
           Positioner value for position 9
         default: 0
       VALJ:
-        type: int
+        type: float
         description: |-
           Positioner value for position 10
         default: 0
       VALK:
-        type: int
+        type: float
         description: |-
           Positioner value for position 11
         default: 0
       VALL:
-        type: int
+        type: float
         description: |-
           Positioner value for position 12
         default: 0
       VALM:
-        type: int
+        type: float
         description: |-
           Positioner value for position 13
         default: 0
       VALN:
-        type: int
+        type: float
         description: |-
           Positioner value for position 14
         default: 0
       VALO:
-        type: int
+        type: float
         description: |-
           Positioner value for position 15
         default: 0
       VALP:
-        type: int
+        type: float
         description: |-
           Positioner value for position 16
         default: 0
