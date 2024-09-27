@@ -16,6 +16,10 @@ entity_models:
         type: str
         description: |-
           Device suffix
+      pos:
+        type: str
+        description: |-
+          Multipositioner object      
       MP:
         type: str
         description: |-
@@ -139,6 +143,10 @@ entity_models:
         type: str
         description: |-
           Multipositioner description
+      name:
+        type: id
+        description: |-
+          Object name and gui association name
       STRA:
         type: str
         description: |-
@@ -219,10 +227,7 @@ entity_models:
         description: |-
           String description for position 16
         default: ''
-      name:
-        type: id
-        description: |-
-          Object name and gui association name
+
       P1_VALS:
         type: str
         description: |-
